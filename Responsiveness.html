@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media_query</title>
+    <style>
+        html{
+            font-size: 10em;
+        }        
+        /* @media screen and (width: 600px) { */
+        /* @media screen and (max-width: 600px) {
+            body{
+                color: red;
+            }
+        }
+        @media (orientation: landscape) {
+            body{
+                color: pink ;
+            }
+        } */
+        /* @media screen and (max-width: 600px) and (orientation: landscape) {
+            body{
+                color: blueviolet;
+            }           
+        }
+        @media screen and (max-width: 600px), screen and (orientation: landscape) {
+            body{
+                color:brown;
+            }            
+        } */
+        @media not all and (orientation: landscape) {
+            body{
+                color: goldenrod;
+            }            
+        }
+    </style>
+</head>
+
+<body>
+    <p>adipisicing elit. Eius possimus corporis ullam at, quam nisi molestiae tenetur aspernatur quidem suscipit.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
