@@ -1,0 +1,17 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+   button {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 15px 0 0;
+  }
+  .final__facebook-style-btn {
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 3.9rem;
+    padding: 6px 12px;
+  }

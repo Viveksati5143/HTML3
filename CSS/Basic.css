@@ -1,0 +1,50 @@
+h3{
+    color: chartreuse;
+}
+
+
+h1,p,span{
+    /* combined selector */
+}
+
+
+h1{
+    property value;    /* Type Selector */
+}
+
+
+*{} 
+/* universal selector */
+
+
+.className{}
+/* Class selector */
+
+
+#idName{}
+/* Id selectors */
+
+
+a[]{}
+a[href = www.example.com"]{
+    /* Attribute Selector */
+}
+
+
+/* Pseudo-class Selector */
+p:first-child{}
+selector:pseudo-class{}
+:hover
+:visited
+
+
+/* Pseudo-element Selector */
+p::first-line{
+    color:brown;
+}
+
+
+/* Combinator Selectors */
+article> p{
+    property:value;
+}
